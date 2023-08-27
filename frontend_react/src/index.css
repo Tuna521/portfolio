@@ -3,14 +3,25 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
+  --primary-color: #180931;
+  --secondary-color: #f55589;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
 }
+
+/* 
+  bright-pink: #f3000d;
+  light-pink: #f55589;
+  yellow: #fbce3f;
+  dark-purple: #180931;
+  orange: #ed5d29;
+  mint: #81E4C9;
+  light-purple: #390D7B;
+  lilac: #75559D;
+ */
 
 * {
   box-sizing: border-box;
