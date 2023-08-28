@@ -1,5 +1,5 @@
 import React from 'react'
-import {color, motion} from 'framer-motion'
+import {motion} from 'framer-motion'
 
 import {images} from '../../constants'
 import './Header.scss'
@@ -34,7 +34,7 @@ const Header = () => {
           </div>
 
           <div className='tag-cmp app__flex'> 
-            <p className='p-text'>Computing Student at Imperial</p> 
+            <p className='p-text'>Computing Student @ Imperial</p> 
             <p className='p-text'>Aspiring Software Engineer</p>
           </div>
         </div>
@@ -47,13 +47,6 @@ const Header = () => {
       >
         <img src={images.profile} alt="profile_bg" />
 
-        <motion.img
-          whileInView={{scale: [0,1]}}
-          transition={{duration: 1, ease:'easeInOut'}}
-          src={images.circle}
-          alt="profile_circle"
-          className="overlay_circle"
-        />
       </motion.div>
 
       {/* <motion.div
