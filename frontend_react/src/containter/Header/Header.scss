@@ -1,6 +1,10 @@
 #home {
   position: relative;
   
+    background: url('../../assets/bgIMG.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
 
   .app__wrapper {
     padding: 0;
@@ -11,10 +15,7 @@
   }
 }
 
-// background: url('../../assets/bgIMG.png');
-//   background-size: cover;
-//   background-repeat: repeat;
-//   background-position: center;
+
 
 
 .app__header {
@@ -83,7 +84,7 @@
 }
 
 .app__header-img {
-  flex: 1;
+  flex: 0.65;
   height: 100%;
 
   display: flex;
@@ -103,7 +104,6 @@
     border-radius: 50px;
 
     @media screen and (max-width: 1200px) {
-      
       width: 70%;
     }
   }
